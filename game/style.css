@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url('background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    font-family: 'Harry Potter', serif;
+}
+
+.game-container {
+    position: relative;
+    text-align: center;
+}
+
+canvas {
+    background: rgba(0, 0, 0, 0.3);
+    border: 2px solid white;
+}

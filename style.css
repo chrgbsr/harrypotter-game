@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Poppins:wght@300;400;600&display=swap');
+
+body {
+    background-color: #1a1a1a;
+    color: #f5e6c8;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    max-width: 600px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(255, 223, 186, 0.3);
+    text-align: center;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+.harry-image {
+    width: 300px; /* Doubled the size */
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-family: 'Cinzel Decorative', serif;
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #ffd700;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.signature {
+    font-style: italic;
+    font-weight: bold;
+    color: #d4af37;
+}
+
+.play-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background: linear-gradient(45deg, #ffcc00, #ff6600);
+    color: #1a1a1a;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.play-button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px rgba(255, 223, 186, 0.5);
+}
+
+.game-controls {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #ccc;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+}

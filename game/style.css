@@ -5,22 +5,32 @@
 }
 
 body {
-    background: url('background.jpg') no-repeat center center fixed;
-    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    flex-direction: column;
-    font-family: 'Harry Potter', serif;
-}
-
-.game-container {
-    position: relative;
-    text-align: center;
+    background: #000;
+    overflow: hidden;
 }
 
 canvas {
-    background: rgba(0, 0, 0, 0.3);
-    border: 2px solid white;
+    border: 2px solid gold;
+    border-radius: 5px;
+}
+
+#loading {
+    position: absolute;
+    color: gold;
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+}
+
+#score {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: gold;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    z-index: 100;
 }
